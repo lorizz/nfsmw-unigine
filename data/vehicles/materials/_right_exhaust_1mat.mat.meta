@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>456eb73cc4ec296b6060afced281f4d59d624030</guid>
+	<type>material</type>
+	<hash>54e5e206</hash>
+	<runtimes>
+		<runtime id="456eb73cc4ec296b6060afced281f4d59d624030" name="_right_exhaust_1mat" link="0"/>
+	</runtimes>
+</asset>

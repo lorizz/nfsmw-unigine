@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>a7cceb3e609f9985b9b1bd20f3f04dfffc9d8352</guid>
+	<type>material</type>
+	<hash>f2ef363c</hash>
+	<runtimes>
+		<runtime id="a7cceb3e609f9985b9b1bd20f3f04dfffc9d8352" name="base_amat" link="0"/>
+	</runtimes>
+</asset>

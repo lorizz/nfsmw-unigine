@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.12.0.2" name="kit00_right_side_mirror_amat" guid="8b10e9aadafe8d018ca3826c433f9adb1dc0127e" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

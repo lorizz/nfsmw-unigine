@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>88ba5246738304edc931a168fd6b95a795d516da</guid>
+	<type>material</type>
+	<hash>f30d6e52</hash>
+	<runtimes>
+		<runtime id="88ba5246738304edc931a168fd6b95a795d516da" name="kit00_left_side_mirror_amat" link="0"/>
+	</runtimes>
+</asset>

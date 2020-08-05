@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.12.0.2" name="_roof_scoop_1mat" guid="e219c080c6f0b9df677e3db2d0cf016974c2dbb4" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

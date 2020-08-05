@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>b22e02abe088380e630d6015fa7232706144230f</guid>
+	<type>material</type>
+	<hash>007e09fe</hash>
+	<runtimes>
+		<runtime id="b22e02abe088380e630d6015fa7232706144230f" name="plainnothing_tire" link="0"/>
+	</runtimes>
+</asset>

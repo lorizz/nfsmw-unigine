@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>081a29ad2442ff28b067d867b3fcfa9aa52b0931</guid>
+	<type>material</type>
+	<hash>61acef64</hash>
+	<runtimes>
+		<runtime id="081a29ad2442ff28b067d867b3fcfa9aa52b0931" name="windshield_rear_defroster" link="0"/>
+	</runtimes>
+</asset>

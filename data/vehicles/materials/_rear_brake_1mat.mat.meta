@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>e0ad2ca6013a5bcd83fe4ac88fac6f8720cf673a</guid>
+	<type>material</type>
+	<hash>2c34002</hash>
+	<runtimes>
+		<runtime id="e0ad2ca6013a5bcd83fe4ac88fac6f8720cf673a" name="_rear_brake_1mat" link="0"/>
+	</runtimes>
+</asset>

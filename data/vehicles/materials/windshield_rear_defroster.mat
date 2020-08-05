@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.12.0.2" name="windshield_rear_defroster" guid="081a29ad2442ff28b067d867b3fcfa9aa52b0931" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

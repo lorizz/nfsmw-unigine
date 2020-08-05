@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.12.0.2" name="_right_reverse_1mat" guid="718e09367e96ef1d2733a5d8003a6f57674244ca" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

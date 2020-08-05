@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.12.0.2">
+	<node type="ObjectMeshStatic" id="59966932" name="rx7">
+		<mesh_name>guid://f6c6580d64db9a08e5bcf5c73163b87a7de9ed91</mesh_name>
+		<surface name="rx7_carskin_skin1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_windshield_window_front" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_windshield_rear_defroster" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_windowmask_window_mask" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_moldings_misc" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_dullplastic_misc" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_diablohp_doorline" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_decal_badging" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_plainnothing_window_mask" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_licenseplate_licenseplate" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_brakelight_brakelight_centre" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_bottom_carbottom" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_chrome_misc" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_aluminum_misc" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_brakelight_brakelight_left" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_moldings_brakelight_left" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_brakelight_brakelight_right" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7_moldings_brakelight_right" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="282997500" name="Light">
+			<transform>-29.086479 95.51712 5.5189161 0.0 -77.110092 -19.988344 -60.452461 0.0 -56.639305 -21.839132 79.467239 0.0 -4.0762453 -1.0054545 5.9038625 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="442005828" name="Camera">
+			<transform>-65.15583 61.41703 44.527138 0.0 -68.592056 -72.767639 -6.0928364e-06 0.0 32.401348 -30.542088 89.539574 0.0 -7.3588924 6.9257903 4.9583097 1.0</transform>
+		</node>
+	</node>
+</nodes>

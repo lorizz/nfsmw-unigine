@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.12.0.2" name="kit00_left_brakelight_amat" guid="5b94bfcce253f8bb7a1016de140a90a596b709c0" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

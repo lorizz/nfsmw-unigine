@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>be15c477bf70576a41519fc1ad13f62c04d3fb9b</guid>
+	<type>material</type>
+	<hash>28a17b33</hash>
+	<runtimes>
+		<runtime id="be15c477bf70576a41519fc1ad13f62c04d3fb9b" name="dullplastic_tire" link="0"/>
+	</runtimes>
+</asset>

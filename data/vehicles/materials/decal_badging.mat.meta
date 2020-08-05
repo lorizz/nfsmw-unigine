@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>af2662970d691f0ad51d82e1990d3ecc6b0c6bbb</guid>
+	<type>material</type>
+	<hash>61bd9afb</hash>
+	<runtimes>
+		<runtime id="af2662970d691f0ad51d82e1990d3ecc6b0c6bbb" name="decal_badging" link="0"/>
+	</runtimes>
+</asset>

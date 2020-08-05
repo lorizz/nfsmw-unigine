@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>5a9e577b7857669e31301d65c673af808bbbdcdf</guid>
+	<type>material</type>
+	<hash>3924ea9e</hash>
+	<runtimes>
+		<runtime id="5a9e577b7857669e31301d65c673af808bbbdcdf" name="windshield_window_front" link="0"/>
+	</runtimes>
+</asset>

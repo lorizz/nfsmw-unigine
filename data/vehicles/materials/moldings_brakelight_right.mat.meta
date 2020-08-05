@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>c9e8021b22b0d0bed5234105749e3ea0530be17f</guid>
+	<type>material</type>
+	<hash>4b81a476</hash>
+	<runtimes>
+		<runtime id="c9e8021b22b0d0bed5234105749e3ea0530be17f" name="moldings_brakelight_right" link="0"/>
+	</runtimes>
+</asset>

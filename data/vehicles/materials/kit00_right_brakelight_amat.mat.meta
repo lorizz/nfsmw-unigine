@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>03e72e100b16aa2f72fb51c231b76639d10ada44</guid>
+	<type>material</type>
+	<hash>f066f832</hash>
+	<runtimes>
+		<runtime id="03e72e100b16aa2f72fb51c231b76639d10ada44" name="kit00_right_brakelight_amat" link="0"/>
+	</runtimes>
+</asset>

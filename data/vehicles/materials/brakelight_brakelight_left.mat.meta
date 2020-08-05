@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>41af19e5de018200ce4e8d5fd106fb3229c1a0e9</guid>
+	<type>material</type>
+	<hash>1674f901</hash>
+	<runtimes>
+		<runtime id="41af19e5de018200ce4e8d5fd106fb3229c1a0e9" name="brakelight_brakelight_left" link="0"/>
+	</runtimes>
+</asset>

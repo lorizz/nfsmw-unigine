@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>107ec571dd93001c11ad1ccbeb854baeb2591f35</guid>
+	<type>material</type>
+	<hash>a1c4e2bd</hash>
+	<runtimes>
+		<runtime id="107ec571dd93001c11ad1ccbeb854baeb2591f35" name="rubber_tread" link="0"/>
+	</runtimes>
+</asset>

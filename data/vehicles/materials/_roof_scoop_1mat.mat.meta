@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>e219c080c6f0b9df677e3db2d0cf016974c2dbb4</guid>
+	<type>material</type>
+	<hash>61d61ee8</hash>
+	<runtimes>
+		<runtime id="e219c080c6f0b9df677e3db2d0cf016974c2dbb4" name="_roof_scoop_1mat" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.12.0.2">
+	<guid>9e4221f3f00c7eb6c753e69d4ee9375891ebd2d7</guid>
+	<type>material</type>
+	<hash>8b2aa057</hash>
+	<runtimes>
+		<runtime id="9e4221f3f00c7eb6c753e69d4ee9375891ebd2d7" name="aluminum_misc" link="0"/>
+	</runtimes>
+</asset>
