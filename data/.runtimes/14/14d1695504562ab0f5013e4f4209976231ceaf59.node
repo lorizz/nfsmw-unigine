@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.12.0.2">
+	<node type="ObjectMeshStatic" id="1608935100" name="rx7wheel">
+		<mesh_name>guid://3d7c50e4ca3de6f3b9537fb66354f39deb24e058</mesh_name>
+		<surface name="rx7wheel_dullplastic_tire" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7wheel_magsilver_tire" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7wheel_plainnothing_tire" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7wheel_rubber_tire" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7wheel_plainnothing_tire_back" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="rx7wheel_rubber_tread" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="1882069080" name="Light">
+			<transform>-29.086504 95.517113 5.5188885 0.0 56.639324 21.83913 -79.467224 0.0 -77.110069 -19.988375 -60.45248 0.0 -4.0762453 -1.0054543 5.9038625 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="752759716" name="Camera">
+			<transform>-65.15583 61.41703 44.527122 0.0 -32.401329 30.542084 -89.539574 0.0 -68.592056 -72.767632 -1.4587847e-05 0.0 -7.3588924 6.9257903 4.9583092 1.0</transform>
+		</node>
+	</node>
+</nodes>

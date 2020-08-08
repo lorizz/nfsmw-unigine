@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <property version="2.12.0.2" name="VehicleRX7" guid="f73f9f3eb12abd85c51a912000bb11ff91017752" parent="9bb28c0dd30747d3b36ff883adc3d2649c56e4a4">
-	<parameter name="vehicleName">RX7</parameter>
+	<parameter name="vehicleId">rx7</parameter>
+	<parameter name="vehicleDisplayName">Mazda RX-7</parameter>
+	<parameter name="wheelLeftFrontPos">-0.819999993 1.25 0.150000006</parameter>
+	<parameter name="wheelLeftRearPos">-0.819999993 -1.21000004 0.159999996</parameter>
 </property>

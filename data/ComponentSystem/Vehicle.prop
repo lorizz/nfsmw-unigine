@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <property version="2.12.0.2" name="Vehicle" manual="1" parent_name="node_base">
-	<parameter name="vehicleName" type="string">Vehicle1</parameter>
+	<parameter name="vehicleId" type="string">veh1</parameter>
+	<parameter name="vehicleDisplayName" type="string">Vehicle1</parameter>
+	<parameter name="wheelLeftFrontPos" type="vec3">0.000000 0.000000 0.000000</parameter>
+	<parameter name="wheelLeftRearPos" type="vec3">0.000000 0.000000 0.000000</parameter>
 </property>

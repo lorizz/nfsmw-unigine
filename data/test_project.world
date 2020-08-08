@@ -634,5 +634,95 @@
 			<controlled>1</controlled>
 			<transform>1.8199258e-06 1 -0 0.0 0 0 1 0.0 1 -1.8199258e-06 0 0.0 5.4200001 -2.1855696e-08 2.0999999 1.0</transform>
 		</node>
+		<node type="ObjectMeshStatic" id="36939281" enabled="0" name="rx7">
+			<mesh_name>guid://f6c6580d64db9a08e5bcf5c73163b87a7de9ed91</mesh_name>
+			<surface name="rx7_carskin_skin1" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb" property="f73f9f3eb12abd85c51a912000bb11ff91017752"/>
+			<surface name="rx7_windshield_window_front" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_windshield_rear_defroster" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_windowmask_window_mask" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_moldings_misc" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_dullplastic_misc" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_diablohp_doorline" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_decal_badging" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_plainnothing_window_mask" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_licenseplate_licenseplate" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_brakelight_brakelight_centre" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_bottom_carbottom" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_chrome_misc" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_aluminum_misc" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_brakelight_brakelight_left" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_moldings_brakelight_left" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_brakelight_brakelight_right" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<surface name="rx7_moldings_brakelight_right" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<body type="BodyRigid" id="742017283" frozen="0">
+				<shape type="ShapeConvex" id="1782104098" name="chassis_col">
+					<vertex num_vertex="75">-0.958581328 0.130972311 0.708609164 -0.865774095 1.46242654 0.427292019 -0.8215698 1.60062182 -0.01062606 0.7814188 1.62294984 0.472572714 0.785354078 1.77127922 0.303845793 0.70116359 1.74140573 0.45471403 0.803651452 1.6840694 -0.0109362612 0.817735434 -0.834298432 0.0240889359 0.674906075 1.88748312 -0.0201861542 0.747472823 -1.59752166 0.0489384197 0.815215707 -1.61177111 0.135354668 0.536522508 -2.1016171 0.0919521004 -0.176823065 -2.09771442 0.0705776364 -0.817735136 -0.834298849 0.0240895599 -4.94451228e-07 2.04025626 0.258559972 -0.000267982483 2.00247741 -0.0172945634 -0.426832467 1.98919094 0.247867376 -0.52114898 -2.02796412 0.740615606 -0.503836811 -0.504269779 1.01332855 -0.808785617 -1.65982735 0.560876966 0.958581865 0.130972698 0.708608389 -0.781419516 1.62294936 0.472573191 -0.785355031 1.77127874 0.30384627 -0.653041363 -2.13288641 0.280492336 -0.179116935 -2.22773409 0.219155371 -0.420573086 -2.20789194 0.342988312 0.740959406 -2.02402139 0.356514931 0.653043091 -2.13310599 0.342987984 0.68472451 -2.07600856 0.210322067 0.000512016239 -2.13396978 0.788062513 -0.00894351304 -0.857117414 1.04006112 -0.273868412 -2.10871053 0.779636443 0.68174994 1.46424615 0.571333766 0.750210166 -1.89568412 0.131739765 0.177929878 -2.2166481 0.196265161 0.420574814 -2.2078917 0.342988044 0.450629652 -0.254016668 1.02974737 0.389851421 -0.646226823 1.03849387 0.534620285 -0.78988415 0.962703705 0.863270342 -1.45149875 0.427844942 7.42449402e-07 -2.251091 0.341967225 0.206632406 -2.11963058 0.784202158 -0.69770354 -1.9995681 0.59156847 0.722290635 -1.97914016 0.574745655 0.72360903 -1.78255093 0.655273139 0.936351657 0.160471082 0.747946143 -0.000572323799 1.86983216 0.449645966 -0.270116478 0.0221761744 0.999726534 -0.501003325 -0.0278193317 0.974559307 -0.269073457 -0.273984313 1.04707825 -0.815214813 -1.61177194 0.135355234 0.861157477 1.56404543 0.327687353 0.270117223 0.022176249 0.999726236 -0.533087134 1.92723453 -0.0244253054 -0.866218984 -1.39452362 0.462723017 -0.808414698 -1.80907786 0.349518538 -0.389850318 -0.646226943 1.03849423 0.521149278 -2.02796412 0.740615308 -0.735558331 1.84616613 -0.0158272553 -0.661539912 -2.05875134 0.168415636 0.67135632 1.87928438 0.342118531 0.848876476 1.36060405 0.506742001 -0.783989906 -1.62121737 0.0702606738 -0.681750417 1.46424592 0.571334183 -0.650234997 1.77975035 0.442256808 -0.319745928 1.99763823 0.311918527 -0.671357036 1.87928402 0.342118889 -0.74380511 -2.02182794 0.307885945 0.319745004 1.99763834 0.311918437 -0.93635112 0.160470694 0.747946918 -0.759468257 -1.89874268 0.158832207 -0.715382457 -1.89218104 0.102671467 0.317650437 2.01420212 0.260249197 0.735557377 1.84616661 -0.0158277415 -0.735616982 1.85477996 0.292351544</vertex>
+					<faces num_faces="145">
+						<num_vertex>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</num_vertex>
+						<vertex>0 1 2 54 0 50 55 54 50 0 13 50 13 0 2 54 55 19 2 1 22 55 50 70 67 55 70 0 54 19 58 2 22 55 42 19 42 55 67 1 0 69 50 13 62 50 62 70 1 21 22 58 22 74 0 19 69 59 67 70 59 23 67 62 71 70 23 42 67 22 21 74 21 1 69 71 59 70 42 17 19 19 18 69 17 18 19 21 66 74 66 21 64 63 21 69 18 48 69 16 58 74 42 23 17 18 17 56 66 16 74 48 63 69 58 16 53 17 23 25 17 25 31 16 66 65 21 63 64 24 23 59 23 24 25 48 18 49 17 31 56 71 12 59 12 24 59 49 18 56 65 66 64 47 63 48 47 48 49 16 15 53 14 16 65 12 71 62 14 15 16 31 30 56 24 40 25 25 40 31 40 29 31 46 65 64 63 46 64 29 30 31 13 12 62 2 58 53 13 2 53 24 12 34 30 49 56 12 13 9 13 7 9 7 13 53 52 47 49 63 47 52 32 46 63 32 65 46 68 14 65 68 8 7 53 15 8 53 30 37 49 40 24 34 12 11 34 36 52 49 37 36 49 11 12 9 30 29 41 6 7 8 46 32 5 6 8 73 29 40 41 72 14 68 15 14 72 40 35 41 37 30 41 40 34 35 46 5 68 5 60 68 8 15 72 57 37 41 52 36 32 34 11 35 60 72 68 35 27 41 11 27 35 27 57 41 32 3 5 37 57 38 60 8 72 32 36 45 27 11 28 33 11 9 36 37 38 32 45 61 3 32 61 43 57 27 36 38 45 38 57 44 8 60 73 11 33 28 57 43 44 38 44 45 4 60 5 3 4 5 60 4 73 43 27 26 33 9 10 9 7 10 26 27 28 44 20 45 3 51 4 51 3 61 33 26 28 45 20 61 39 20 44 4 6 73 43 39 44 51 6 4 39 43 26 26 33 10 20 51 61 39 26 10 20 7 6 7 20 10 20 6 51 20 39 10</vertex>
+					</faces>
+				</shape>
+				<shape type="ShapeCylinder" id="42305989" name="wheel_lf_col" transform="0.000690460147 -1.19209254e-07 -0.999999702 0 8.23163759e-11 1 -1.1920924e-07 0 0.999999344 0 0.000690459856 0 -0.720000029 1.25 0.149999976 1">
+					<radius>0.306681693</radius>
+					<height>0.196059376</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1273346420" name="wheel_rf_col" transform="0.000690460147 -1.19209254e-07 -0.999999702 0 8.23163759e-11 1 -1.1920924e-07 0 0.999999344 0 0.000690459856 0 0.720000029 1.25 0.149999976 1">
+					<radius>0.306681693</radius>
+					<height>0.196059376</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1662939056" name="wheel_rr_col" transform="0.000690460147 -1.19209254e-07 -0.999999702 0 8.23163759e-11 1 -1.1920924e-07 0 0.999999344 0 0.000690459856 0 0.720000029 -1.21000004 0.159999996 1">
+					<radius>0.306681693</radius>
+					<height>0.196059376</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1008685090" name="wheel_lr_col" transform="5.96046377e-08 -1.19209226e-07 -0.999999881 0 0 1 -1.19209233e-07 0 0.999999464 0 5.96046164e-08 0 -0.720000029 -1.21000004 0.159999996 1">
+					<radius>0.306681693</radius>
+					<height>0.196059376</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="f73f9f3eb12abd85c51a912000bb11ff91017752" guid="ec4a3288bb9db447343464fa9fbdb0111ee0aa3c"/>
+			</properties>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 1 1.0</transform>
+			<node type="ObjectMeshStatic" id="555231389" name="wheel_lf">
+				<mesh_name>guid://3d7c50e4ca3de6f3b9537fb66354f39deb24e058</mesh_name>
+				<surface name="rx7wheel_dullplastic_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_magsilver_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_plainnothing_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_rubber_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_plainnothing_tire_back" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_rubber_tread" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>5.9604645e-08 0.99999994 0 0.0 -0.99999994 5.9604645e-08 0 0.0 0 0 1 0.0 -0.81999999 1.25 0.15000001 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1060764129" name="wheel_rf">
+				<mesh_name>guid://3d7c50e4ca3de6f3b9537fb66354f39deb24e058</mesh_name>
+				<surface name="rx7wheel_dullplastic_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_magsilver_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_plainnothing_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_rubber_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_plainnothing_tire_back" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_rubber_tread" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>5.9604641e-08 -0.99999988 0 0.0 0.99999994 5.9604645e-08 0 0.0 0 0 1 0.0 0.81999999 1.25 0.15000001 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1924040987" name="wheel_rr">
+				<mesh_name>guid://3d7c50e4ca3de6f3b9537fb66354f39deb24e058</mesh_name>
+				<surface name="rx7wheel_dullplastic_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_magsilver_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_plainnothing_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_rubber_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_plainnothing_tire_back" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_rubber_tread" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>5.9604623e-08 -0.99999958 0 0.0 0.99999946 5.9604616e-08 0 0.0 0 0 0.99999994 0.0 0.81999999 -1.21 0.16 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2103069379" name="wheel_lr">
+				<mesh_name>guid://3d7c50e4ca3de6f3b9537fb66354f39deb24e058</mesh_name>
+				<surface name="rx7wheel_dullplastic_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_magsilver_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_plainnothing_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_rubber_tire" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_plainnothing_tire_back" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<surface name="rx7wheel_rubber_tread" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>5.9604627e-08 0.99999964 0 0.0 -0.99999934 5.9604609e-08 0 0.0 0 0 0.99999994 0.0 -0.81999999 -1.21 0.16 1.0</transform>
+			</node>
+		</node>
 	</editor>
 </world>

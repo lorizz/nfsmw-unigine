@@ -16,14 +16,21 @@ public:
 	COMPONENT_UPDATE(update);
 	COMPONENT_SHUTDOWN(shutdown);
 
-	PROP_PARAM(String, vehicleName, "Vehicle1");
+	PROP_PARAM(String, vehicleId, "veh1");
+	PROP_PARAM(String, vehicleDisplayName, "Vehicle1");
+	PROP_PARAM(Vec3, wheelLeftFrontPos, Vec3(0.0f));
+	PROP_PARAM(Vec3, wheelLeftRearPos, Vec3(0.0f));
 protected:
 	void init();
 	void update();
 	void shutdown();
 
+	void generateWheels();
+
 private:
 	ControlsPtr controls;
+	ObjectMeshStaticPtr mesh;
+	ObjectMeshStaticPtr wheel_lf, wheel_rf, wheel_lr, wheel_rr;
 
 };
 

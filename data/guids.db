@@ -396,6 +396,7 @@
 	"e852423d46f59e782dc3cf77d6a8e66aef2ae2c1": "core/materials/default/post/post_filter_rgb2yuv.basemat.meta",
 	"3138fdbb38af57de8f06dda5e134f2c07997c71f": "configs/default.boot.meta",
 	"bdc90fb684ad439d9c80f058075637d76a0e734a": "vehicles/rx7/rx7.fbx.meta",
+	"ed809de9f6a2ce34c3f024036244f9861371032d": "vehicles/rx7/rx7wheel.fbx.meta",
 	"dd141bcc3073a4bbdc33d2dea8c31ca557de25c0": "template_assets/template_material_ball/material_ball.fbx.meta",
 	"9d82e0aa52321801b6a3916ce23a5ddb252df97e": "core/gui/gui.rc",
 	"ad209db26c4de169c7743bb481b3b383f3e04306": "core/generate_cache.usc",
@@ -1133,8 +1134,8 @@
 	"65e36610fb35822f069c49c20bb3fe395f6e9244": "core/shaders/clouds/compute/compositor.comp",
 	"a39dbef00af5458f4f9175a2b88278995e0d0924": "core/shaders/bake_voxel_probe/bake_voxel_blur.comp",
 	"a8296c41da0458acb2c7fc1b9dac82bebed74b05": "core/shaders/water/compute/shoreline_wetness.comp",
-	"d60eae89001966545ab29da3673ae6a67888cdcd": "vehicles/rx7/VehicleRX7.prop",
-	"42389480a4f97ddf500831b26b086569eb84efb4": "ComponentSystem/Vehicle.prop",
+	"f73f9f3eb12abd85c51a912000bb11ff91017752": "vehicles/rx7/VehicleRX7.prop",
+	"9bb28c0dd30747d3b36ff883adc3d2649c56e4a4": "ComponentSystem/Vehicle.prop",
 	"d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa": "core/properties/surface_base.prop",
 	"1c613bbca0afd78c1ef165fc8e419352c5903d9e": "core/properties/node_base.prop",
 	"9f5bf8c844c24587ec2f453ad31493518a15b47c": "core/shaders/billboards/base/deferred.shader",
@@ -1831,5 +1832,6 @@
 	"4458633e9d84b18570e3f520bbcd25ff38e47b52": "core/shaders/billboards/base/vertex/lens_visibility.vert",
 	"560a284b9653e12e47e7b6b50dac58903f88d2af": "core/shaders/common/empty.vert",
 	"cfc017b8a39b77b72de5f1aac8fff5015a25ca6c": "vehicles/rx7/rx7.fbx",
+	"767e2de3024ab9e647c2080df9c38a084f2425c7": "vehicles/rx7/rx7wheel.fbx",
 	"e40b45ab1c769f0e7a329b15bfd83170f20c160f": "template_assets/template_material_ball/material_ball.fbx"
 }

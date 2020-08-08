@@ -18,7 +18,7 @@
 // World logic, it takes effect only when the world is loaded.
 // These methods are called right after corresponding world script's (UnigineScript) methods.
 
-int AppWorldLogic::addMeshToScene(const char *file_name, const char *mesh_name, const char *material_name, Math::Vec3 position)
+int AppWorldLogic::addMeshToScene(const char *file_name, const char *mesh_name, const char *material_name, Math::Vec3 position, const char *parent_node = NULL)
 {
 	MeshPtr mesh = Mesh::create();
 	ObjectMeshStaticPtr oms;
@@ -40,6 +40,17 @@ int AppWorldLogic::addMeshToScene(const char *file_name, const char *mesh_name, 
 		oms = ObjectMeshStatic::create(mesh);
 	}
 
+	if (parent_node != NULL)
+	{
+		if (!World::getNodeByName(parent_node).isValid() || World::getNodeByName(parent_node).isNull())
+			Log::error("World node %s is not valid!", parent_node);
+		else
+		{
+			oms->setParent(World::getNodeByName(parent_node));
+			Log::warning("Setup parent %s for node %s", parent_node, mesh_name);
+		}
+	}
+
 	oms->setMaterial(material_name, "*");
 	oms->setName(mesh_name);
 	oms->setWorldPosition(position);
@@ -55,15 +66,11 @@ int AppWorldLogic::addMeshToScene(const char *file_name, const char *mesh_name, 
 
 int AppWorldLogic::initObjects()
 {
-	addMeshToScene("../data/vehicles/rx7/rx7.fbx/rx7.mesh", "player_vehicle", "mesh_base", Math::Vec3(0.0f, 0.0f, 10.0f));
+	addMeshToScene("../data/vehicles/rx7/rx7.fbx/rx7.mesh", "player_vehicle", "mesh_base", Math::Vec3(0.0f, 0.0f, 1.0f));
 	playerVehicle = checked_ptr_cast<ObjectMeshStatic>(World::getNodeByName("player_vehicle"));
-	Log::warning("Generated player vehicle!\n");
-	BodyRigidPtr body = BodyRigid::create();
-	playerVehicle->setBody(body);
-	ShapeConvexPtr col = ShapeConvex::create(body, playerVehicle, 0);
-	playerVehicle->getBodyRigid()->addShape(col);
-	Log::warning("Added body rigid to vehicle\n");
 	playerVehicle->addProperty("VehicleRX7");
+	Log::warning("Generated player vehicle!\n");
+
 	return 1;
 }
 

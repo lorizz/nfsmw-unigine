@@ -41,13 +41,15 @@ public:
 
 	int save(const Unigine::StreamPtr &stream) override;
 	int restore(const Unigine::StreamPtr &stream) override;
+
+	int addMeshToScene(const char *file_name, const char *mesh_name, const char *material_name, Math::Vec3 position, const char *parent_node);
+
 private:
-	int addMeshToScene(const char *file_name, const char *mesh_name, const char *material_name, Math::Vec3 position);
 	int initObjects();
 
 	ObjectMeshStaticPtr playerVehicle;
-
 	Vector<ObjectMeshStaticPtr> objects;
+
 };
 
 #endif // __APP_WORLD_LOGIC_H__
